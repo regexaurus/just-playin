@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Using colspan and rowspan</title>
+    <style type="text/css">
+        table { border-collapse: collapse; background-color: #EEEEEE;}
+        th, td { padding: 8px; }
+        th { background-color: #C2EAFD; }
+        .cspan { text-align: center; }
+    </style>
+</head>
+<body>
+    <h1>Using colspan and rowspan</h1>
+    <table>
+        <caption>My Schedule</caption>
+        <tr>
+            <th></th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+        </tr>
+        <tr>
+            <th>Breakfast</th>
+            <td>In Lair</td>
+            <td>With Cronies</td>
+            <td>In Lair</td>
+            <td>In Lair</td>
+            <td>In Lair</td>
+        </tr>
+        <tr>
+            <th>Morning</th>
+            <td colspan="2" class="cspan">Design Traps</td>
+            <td colspan="3" class="cspan">Improve Hideout</td>
+        </tr>
+        <tr>
+            <th>Afternoon</th>
+            <td>Train Minions</td>
+            <td>Train Minions</td>
+            <td>Train Minions</td>
+            <td>Train Minions</td>
+            <td rowspan="2">World Domination</td>
+        </tr>
+        <tr>
+            <th>Evening</th>
+            <td>Maniacal Laughter</td>
+            <td>Maniacal Laughter</td>
+            <td>Maniacal Laughter</td>
+            <td>Maniacal Laughter</td>
+        </tr>
+    </table>
+</body>
+</html>
